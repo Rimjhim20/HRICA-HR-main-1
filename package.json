@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://sanketh149.github.io/HRICA-HR",
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
