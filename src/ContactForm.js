@@ -24,25 +24,53 @@ const ContactForm = () => {
   };
   return (
     <form onSubmit={handleSubmit}>
-        <div><img src={process.env.PUBLIC_URL+"mypic.jpg"} /></div>
-        <div>
-            <label htmlFor="Contact US:"><b>Contact Us :</b></label>
+      <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+     <div className="container">
+    <div className="content">
+      <div className="left-side">
+        <div className="address details">
+          <ion-icon name="location"></ion-icon>
+          <div className="topic">Address</div>
+          <div className="text-one">Bandra, Mumbai</div>
+          
         </div>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <div className="phone details">
+          <ion-icon name="call"></ion-icon>
+          <div className="topic">Phone</div>
+          <div className="text-one">+91 9528670242</div>
+          
+        </div>
+        <div className="email details">
+          <ion-icon name="mail"></ion-icon>
+          <div className="topic">Email</div>
+          <div className="text-one">roommate@techmihirnaik.in</div>
+         
+        </div>
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+      <div className="right-side">
+        <div className="topic-text">CONTACT US</div>
+
+        <form action="#">
+          <div className="input-box">
+            <input type="text" placeholder="Enter your name"/>
+          </div>
+          <div className="input-box">
+            <input type="text" placeholder="Enter your email"/>
+          </div>
+          <div className="input-box message-box">
+            <input type="text" placeholder="Message"/>
+          </div>
+          <div className="button">
+            <input type="button" value="Send Now"/>
+          </div>
+        </form>
       </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
-      </div>
-      <button type="submit">{status}</button>
+    </div>
+  </div>
     </form>
   );
 };
 
+
 export default ContactForm;
+
