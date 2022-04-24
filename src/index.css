@@ -1,21 +1,3 @@
-body {
-  background-image: 
-  url(
-"https://media.istockphoto.com/photos/modern-keyboard-wih-contact-us-button-picture-id617893290?b=1&k=20&m=617893290&s=170667a&w=0&h=PvOZgJrzeiPDxl1aqUmzkl7NViTdV00C0VGR9UKYak8=");
-  background-size: "cover";
-  height: 150%;  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -32,7 +32,7 @@ const Home = () => {
                 <p className='flex px-4 py-2 text-slate-500'><CloudUploadIcon className='h-6 hover:animate-ping text-indigo-600' />Manage Employee</p>
                 <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 hover:animate-ping text-indigo-600' />Leave and Attendance</p>
                 <p className='flex px-4 py-2 text-slate-500'><ServerIcon className='h-6 hover:animate-ping text-indigo-600' />Leave Management</p>
-                <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 hover:animate-ping text-indigo-600' />Payroll</p>
+                {/* <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 hover:animate-ping text-indigo-600' />Payroll</p> */}
             </div>
         </div>
     </div>
